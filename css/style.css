@@ -1,0 +1,51 @@
+body{
+  background-color: purple;
+}
+h1{
+  color: yellow;
+  text-align: center;
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+.play{
+
+  color: blue;
+  font-size: 20px;
+}
+.play:hover{
+  background-color: green;
+}
+
+.newgame{
+  color: blue;
+  font-size: 20px;
+  margin-left: 30px;
+}
+.newgame:hover{
+  background-color: green;
+}
+.winner{
+  font-size: 30px;
+  color: yellow;
+  text-align: right;
+  margin-top: -30px;
+}
+.container{
+text-align: center;
+}
+
+.column{
+  background-color: white;
+  padding-top: 30px;
+  display: inline-block;
+  width: 130px;
+  height: 100px;
+  margin-top: 2px;
+  border-radius: 0.5em;
+}
+footer{
+  margin-top: 70px;
+  color: yellow;
+  font-size: 20px;
+}
