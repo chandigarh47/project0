@@ -1,95 +1,104 @@
 body{
-  background-color: purple;
+  background-image:url('https://thumbs.dreamstime.com/b/creative-mock-up-layout-made-copy-space-table-open-sketchbook-hand-rose-flower-homemade-flat-lay-98010866.jpg');
+  background-size: cover;
+
 }
 
-div {
-  border: red solid 1px;
-}
+
 h1{
-  color: yellow;
+  color: blue;
   text-align: center;
   font-size: 50px;
   text-decoration: underline;
+  margin-top: 100px;
 }
+h1:hover{
+  color: purple;
+  text-decoration-style: wavy;
+}
+
 #announcement{
   font-size: 50px;
   font-family: sans-serif;
-  color: red;
+  color: purple;
   text-align: center;
+  margin-top: 200px;
+  text-transform: uppercase;
+
 }
+
+
 .play{
 
   color: blue;
-  font-size: 20px;
+  font-size: 30px;
 }
 .play:hover{
-  background-color: green;
+  background-color: skyblue;
 }
 
-.newgame{
+
+.reset{
   color: blue;
-  font-size: 20px;
+  font-size: 30px;
   margin-left: 30px;
 }
-.newgame:hover{
-  background-color: green;
-}
 
+.reset:hover{
+  background-color: orange;
+}
 .container{
 text-align: center;
+position: relative;
 
 }
 
 .box{
   position: absolute;
-  background-color: white;
   padding-top: 50px;
   display: inline-block;
   width: 95px;
   height: 95px;
   margin-top: 2px;
-  border-radius: 0.5em;
-  border-right-width: 4px;
-
-}
-
+  font-size: 80px;
+    }
 
 
 .row-0{
-  top: 200px;
-  
-}
+  top: 30px;
+  border-bottom: black solid 3px;
+  padding-left: 15px;
+  margin-left: 350px;
+      }
 
 .row-1{
-  top: 300px;
-}
+  top: 176px;
+  padding-left: 15px;
+  border-bottom: black solid 3px;
+  margin-left: 350px;
+      }
 .row-2{
-  top: 400px;
-}
+  top: 323px;
+  padding-left: 15px;
+  margin-left: 350px;
+      }
 
 .column-0{
   left: 200px;
-}
+
+      }
 .column-1{
   left: 300px;
-}
+  border-left: black solid 3px;
+      }
 .column-2{
   left: 400px;
-}
+  border-left: black solid 3px;
+      }
 
-/* .row{
-  background-color: white;
-  padding-top: 30px;
-  display: inline-block;
-  width: 130px;
-  height: 100px;
-  margin-top: 2px;
-  border-radius: 0.5em;
-
-} */
 
 footer{
-  margin-top: 70px;
+  margin-top: 580px;
   color: yellow;
   font-size: 20px;
 }
